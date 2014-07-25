@@ -76,20 +76,20 @@ public class DatasourceResource {
 
   private static final String MONDRIAN_CATALOG_REF = "MondrianCatalogRef"; //$NON-NLS-1$
   public static final String APPLICATION_ZIP = "application/zip"; //$NON-NLS-1$
-  
+
   protected IMetadataDomainRepository metadataDomainRepository;
   protected IMondrianCatalogService mondrianCatalogService;
   IDSWDatasourceService dswService;
   IModelerService modelerService;
   public static final String METADATA_EXT = ".xmi"; //$NON-NLS-1$
-  
+
   public DatasourceResource() {
     super();
     metadataDomainRepository = PentahoSystem.get(IMetadataDomainRepository.class, PentahoSessionHolder.getSession());
     mondrianCatalogService = PentahoSystem.get(IMondrianCatalogService.class, PentahoSessionHolder.getSession());
     dswService = new DSWDatasourceServiceImpl();
     modelerService = new ModelerService();
-    
+
   }
 
   /**
@@ -134,16 +134,16 @@ public class DatasourceResource {
 	}
     return new JaxbList<String>(metadataIds);
   }
-  
+
   private boolean isMetadataDatasource(String id) {
     Domain domain;
-    try { 
+    try {
       domain = metadataDomainRepository.getDomain(id);
       if(domain == null) return false;
     } catch (Exception e) { // If we can't load the domain then we MUST return false
       return false;
     }
-    
+
     List<LogicalModel> logicalModelList = domain.getLogicalModels();
     if(logicalModelList != null && logicalModelList.size() >= 1) {
       for(LogicalModel logicalModel : logicalModelList) {
@@ -156,7 +156,7 @@ public class DatasourceResource {
         // moving forward any non metadata generated datasource should have this property
     	  property = logicalModel.getProperty("WIZARD_GENERATED_SCHEMA"); //$NON-NLS-1$
     	  if(property != null) {
-    		  return false;    
+    		  return false;
     	  }
       }
       return true;
@@ -165,11 +165,28 @@ public class DatasourceResource {
     }
   }
 
-  /**
-   * Returns a list of datasource IDs from datasource wizard
-   *
-   * @return JaxbList<String> list of datasource IDs
-   */
+    /**
+     * <div>
+     * <p>
+     * Returns a list of datasource IDs from datasource wizard or null if any exception is caught.
+     * Produce both '{@Value javax.ws.rs.core.MediaType#APPLICATION_XML}' or '{@Value javax.ws.rs.core.MediaType#APPLICATION_JSON}' MIME types.
+     * </p>
+     * Endpoint address is <b>http://[host]:[port]/[webapp]/plugin/data-access/api/datasource/dsw/ids</b><br/>
+     * <p>
+     * <b>Authorization is required.</b><br/>
+     * </p>
+     * Output sample:
+     * <pre>
+     * {@code
+     * <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+     *     <List>
+     *         <Item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">datasourceName.xmi</Item>
+     *     </List>
+     * }
+     * </pre>
+     * </div>
+     * @return list of datasource IDs
+     */
   @GET
   @Path("/dsw/ids")
   @Produces( { APPLICATION_XML, APPLICATION_JSON })
@@ -180,7 +197,7 @@ public class DatasourceResource {
         Domain domain = modelerService.loadDomain(summary.getDomainId());
         List<LogicalModel> logicalModelList = domain.getLogicalModels();
         if(logicalModelList != null && logicalModelList.size() >= 1) {
-          for(LogicalModel logicalModel : logicalModelList) {	
+          for(LogicalModel logicalModel : logicalModelList) {
         	  Object property = logicalModel.getProperty("AGILE_BI_GENERATED_SCHEMA"); //$NON-NLS-1$
         	  if(property != null) {
         		  datasourceList.add(summary.getDomainId());
@@ -195,13 +212,35 @@ public class DatasourceResource {
     return new JaxbList<String>(datasourceList);
   }
 
-  /**
-   * Download the metadata files for a given metadataId
-   *
-   * @param metadataId String Id of the metadata to retrieve
-   *
-   * @return Response containing the file data
-   */
+    /**
+     * <div>
+     * <p>
+     * Returns Response containing the xml file data.
+     * Download the metadata files for a given metadataId.MetadataId is appropriate datasource name with extension.
+     * <p/>
+     * </p>
+     * Endpoint address is <b>http://[host]:[port]/[webapp]/plugin/data-access/api/datasource/metadata/[datasourceName.xmi]/download</b><br/>
+     * <p>
+     * <b>Authorization is required.</b><br/>
+     * </p>
+     * Output sample:
+     * <pre>
+     * {@code
+     * <XMI xmlns:CWMMDB="org.omg.xmi.namespace.CWMMDB"
+     * xmlns:CWM="org.omg.xmi.namespace.CWM"
+     * xmlns:CWMRDB="org.omg.xmi.namespace.CWMRDB"
+     * xmlns:CWMTFM="org.omg.xmi.namespace.CWMTFM"
+     * xmlns:CWMOLAP="org.omg.xmi.namespace.CWMOLAP"
+     * timestamp="Tue Jul 22 17:32:04 FET 2014" xmi.version="1.2">
+     * ...
+     * </XMI>
+     * }
+     * </pre>
+     * </div>
+     *
+     * @param metadataId String Id of the metadata to retrieve
+     * @return Response containing the file data
+     */
   @GET
   @Path("/metadata/{metadataId : .+}/download")
   @Produces(WILDCARD)
@@ -252,8 +291,8 @@ public class DatasourceResource {
       return Response.status(UNAUTHORIZED).build();
     }
     // First get the metadata files;
-    Map<String, InputStream> fileData = ((IPentahoMetadataDomainRepositoryExporter)metadataDomainRepository).getDomainFilesData(dswId); 
-  
+    Map<String, InputStream> fileData = ((IPentahoMetadataDomainRepositoryExporter)metadataDomainRepository).getDomainFilesData(dswId);
+
     // Then get the corresponding mondrian files
     Domain domain = metadataDomainRepository.getDomain(dswId);
     ModelerWorkspace model = new ModelerWorkspace(new GwtModelerWorkspaceHelper());
@@ -366,7 +405,7 @@ public class DatasourceResource {
 	MondrianCatalog catalog = mondrianCatalogService.getCatalog(dswId, PentahoSessionHolder.getSession());
 	String parameters = catalog.getDataSourceInfo();
 	return Response.ok().entity(parameters).build();
-  }  
+  }
 
   private Response createAttachment(Map<String, InputStream> fileData, String domainId) {
     String quotedFileName = null;
@@ -423,7 +462,7 @@ public class DatasourceResource {
     }
     return Response.serverError().build();
   }
-  
+
   private boolean canAdminister() {
     IAuthorizationPolicy policy = PentahoSystem
         .get(IAuthorizationPolicy.class);

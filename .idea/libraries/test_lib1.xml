@@ -1,0 +1,24 @@
+<component name="libraryTable">
+  <library name="test-lib1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/core/test-lib/hsqldb-1.8.0.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/core/test-lib/spring-mock-2.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/core/test-lib/junit-dep-4.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/core/test-lib/junit-4.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/core/test-lib/hamcrest-core-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/core/test-lib/pentaho-xul-core-TRUNK-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/core/test-lib/stax-api-1.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/core/test-lib/jettison-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/core/test-lib/jmock-legacy-2.5.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/core/test-lib/log4j-1.2.16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/core/test-lib/mockito-all-1.8.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/core/test-lib/cglib-nodep-2.1_3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/core/test-lib/jmock-junit4-2.5.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/core/test-lib/hamcrest-library-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/core/test-lib/jmock-2.5.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/core/test-lib/objenesis-1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

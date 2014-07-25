@@ -1,0 +1,44 @@
+<component name="libraryTable">
+  <library name="lib6">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/enunciate/lib/enunciate-jersey-1.27.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/enunciate/lib/jsr311-api-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/enunciate/lib/freemarker-2.3.19.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/enunciate/lib/jdom-1.1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/enunciate/lib/enunciate-core-annotations-1.27.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/enunciate/lib/enunciate-jaxws-ri-1.27.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/enunciate/lib/enunciate-c-1.27.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/enunciate/lib/commons-logging-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/enunciate/lib/jackson-xc-1.9.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/enunciate/lib/apt-jelly-freemarker-2.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/enunciate/lib/enunciate-ruby-1.27.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/enunciate/lib/jsr250-api-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/enunciate/lib/apt-jelly-core-2.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/enunciate/lib/commons-digester-2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/enunciate/lib/activation-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/enunciate/lib/commons-beanutils-1.8.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/enunciate/lib/enunciate-docs-1.27.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/enunciate/lib/mail-1.4.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/enunciate/lib/enunciate-top-1.27.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/enunciate/lib/jackson-jaxrs-1.9.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/enunciate/lib/jaxb-impl-2.2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/enunciate/lib/enunciate-php-1.27.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/enunciate/lib/asm-3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/enunciate/lib/jersey-servlet-1.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/enunciate/lib/enunciate-jersey-rt-1.27.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/enunciate/lib/jackson-core-asl-1.9.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/enunciate/lib/enunciate-core-rt-1.27.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/enunciate/lib/enunciate-java-client-1.27.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/enunciate/lib/jackson-mapper-asl-1.9.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/enunciate/lib/enunciate-xml-1.27.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/enunciate/lib/enunciate-csharp-1.27.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/enunciate/lib/servlet-api-2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/enunciate/lib/enunciate-core-1.27.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/enunciate/lib/enunciate-obj-c-1.27.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/enunciate/lib/enunciate-jaxws-support-1.27.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/enunciate/lib/jersey-server-1.11.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,27 @@
+<component name="libraryTable">
+  <library name="codegen-lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/user-console/codegen-lib/pentaho-xul-core-TRUNK-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/user-console/codegen-lib/pentaho-gwt-widgets-TRUNK-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/user-console/codegen-lib/pentaho-platform-api-TRUNK-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/user-console/codegen-lib/pentaho-xul-gwt-TRUNK-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/user-console/codegen-lib/pentaho-platform-repository-TRUNK-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/user-console/codegen-lib/gwt-dnd-3.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/user-console/codegen-lib/validation-api-1.0.0.GA.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/user-console/codegen-lib/gwtx-1.5.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/user-console/codegen-lib/pentaho-xul-core-TRUNK-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/user-console/codegen-lib/pentaho-platform-extensions-TRUNK-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/user-console/codegen-lib/pentaho-gwt-widgets-TRUNK-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/user-console/codegen-lib/gwt-dev-2.5.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/user-console/codegen-lib/GWT-FX-0.5.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/user-console/codegen-lib/pentaho-xul-gwt-TRUNK-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/user-console/codegen-lib/gwt-user-2.5.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/user-console/codegen-lib/gwt-codeserver-2.5.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/user-console/codegen-lib/validation-api-1.0.0.GA-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/user-console/codegen-lib/json-3.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/user-console/codegen-lib/gwt-incubator-2.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

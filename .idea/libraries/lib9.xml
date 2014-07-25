@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="lib9">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/api/lib/spring-beans-2.5.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/api/lib/pentaho-xul-core-TRUNK-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/api/lib/commons-lang-2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/api/lib/pentaho-database-model-TRUNK-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/api/lib/jaxen-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/api/lib/pentaho-connections-TRUNK-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/api/lib/dom4j-1.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/api/lib/xml-apis-1.0.b2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/api/lib/spring-security-core-2.0.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/api/lib/commons-logging-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/api/lib/commons-collections-3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/api/lib/pentaho-actionsequence-dom-TRUNK-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,64 @@
+<component name="libraryTable">
+  <library name="test-lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/test-lib/mina-core-1.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/test-lib/jmock-2.5.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/test-lib/dumbster-1.6.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/test-lib/commons-logging-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/test-lib/apacheds-core-shared-1.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/test-lib/junit-4.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/test-lib/mimepull-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/test-lib/grizzly-framework-1.9.18-i.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/test-lib/apacheds-protocol-shared-1.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/test-lib/grizzly-portunif-1.9.18-i.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/test-lib/grizzly-http-1.9.18-i.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/test-lib/commons-beanutils-1.8.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/test-lib/pentaho-platform-core-test-TRUNK-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/test-lib/hamcrest-core-1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/test-lib/antlr-2.7.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/test-lib/jersey-multipart-1.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/test-lib/pentaho-platform-repository-test-TRUNK-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/test-lib/simple-jndi-0.11.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/test-lib/apacheds-protocol-ntp-1.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/test-lib/apacheds-protocol-changepw-1.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/test-lib/asm-3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/test-lib/apacheds-kerberos-shared-1.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/test-lib/servlet-api-2.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/test-lib/hsqldb-1.8.0.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/test-lib/jdbm-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/test-lib/jersey-test-framework-core-1.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/test-lib/grizzly-http-servlet-1.9.18-i.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/test-lib/grizzly-servlet-webserver-1.9.18-i.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/test-lib/guava-15.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/test-lib/mockrunner-0.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/test-lib/mina-filter-ssl-1.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/test-lib/mockito-all-1.8.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/test-lib/jersey-test-framework-grizzly-1.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/test-lib/xercesImpl-2.9.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/test-lib/jmock-junit4-2.5.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/test-lib/backport-util-concurrent-2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/test-lib/apacheds-server-jndi-1.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/test-lib/spring-mock-2.0.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/test-lib/jersey-server-1.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/test-lib/shared-asn1-0.9.5.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/test-lib/apacheds-protocol-ldap-1.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/test-lib/commons-collections-3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/test-lib/shared-asn1-codec-0.9.5.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/test-lib/jersey-client-1.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/test-lib/spring-test-2.5.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/test-lib/grizzly-utils-1.9.18-i.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/test-lib/shared-ldap-0.9.5.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/test-lib/apacheds-protocol-kerberos-1.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/test-lib/grizzly-rcm-1.9.18-i.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/test-lib/junit-dep-4.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/test-lib/spring-security-core-tests-2.0.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/test-lib/hamcrest-library-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/test-lib/apacheds-core-1.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/test-lib/commons-lang-2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/test-lib/mockrunner-servlet-0.3.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/test-lib/jersey-core-1.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

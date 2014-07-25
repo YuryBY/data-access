@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="fake">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/test-res/osgiSystem/system/osgi/bundles/fake.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="lib5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/user-console/war/WEB-INF/lib/pentaho-platform-extensions-TRUNK-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/user-console/war/WEB-INF/lib/pentaho-platform-repository-TRUNK-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/user-console/war/WEB-INF/lib/gwt-servlet-2.5.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/user-console/war/WEB-INF/lib/pentaho-platform-api-TRUNK-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/user-console/war/WEB-INF/lib/pentaho-platform-core-TRUNK-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

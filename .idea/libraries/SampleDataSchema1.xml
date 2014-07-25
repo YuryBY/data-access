@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SampleDataSchema1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/repository/test-src/solution/test/datasources/SampleDataSchema.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

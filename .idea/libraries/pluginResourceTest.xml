@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="pluginResourceTest">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/test-res/PluginResourceLoaderTest/lib/pluginResourceTest.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

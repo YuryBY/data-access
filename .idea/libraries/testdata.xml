@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="testdata">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/testdata/Empty.zip!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/testdata/TestZipFile.zip!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/testdata/Success.zip!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/testdata/pentaho-solutions.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

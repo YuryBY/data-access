@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="lib2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/test-res/PluginManagerTest/system/good-plugin1/lib/test-plugin-jar.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../pentaho-platform/extensions/test-res/PluginManagerTest/system/good-plugin1/lib/test-jar.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
