@@ -89,7 +89,6 @@
     <axiom-api.version>1.2.7</axiom-api.version>
     <axiom-dom.version>1.2.7</axiom-dom.version>
     <axiom-impl.version>1.2.7</axiom-impl.version>
-    <axis2.version>1.5</axis2.version>
     <ognl.version>2.6.9</ognl.version>
     <log4j.version>1.2.17</log4j.version>
     <jcommon.version>1.0.14</jcommon.version>
@@ -453,29 +452,7 @@
             <groupId>*</groupId>
           </exclusion>
         </exclusions>
-      </dependency>
-      <dependency>
-        <groupId>org.apache.axis2</groupId>
-        <artifactId>axis2-adb</artifactId>
-        <version>${axis2.version}</version>
-        <exclusions>
-          <exclusion>
-            <artifactId>*</artifactId>
-            <groupId>*</groupId>
-          </exclusion>
-        </exclusions>
-      </dependency>
-      <dependency>
-        <groupId>org.apache.axis2</groupId>
-        <artifactId>axis2-kernel</artifactId>
-        <version>${axis2.version}</version>
-        <exclusions>
-          <exclusion>
-            <artifactId>*</artifactId>
-            <groupId>*</groupId>
-          </exclusion>
-        </exclusions>
-      </dependency>
+      </dependency>      
       <dependency>
         <groupId>ognl</groupId>
         <artifactId>ognl</artifactId>
