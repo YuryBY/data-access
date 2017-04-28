@@ -12,7 +12,7 @@
 * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 * See the GNU Lesser General Public License for more details.
 *
-* Copyright (c) 2002-2016 Pentaho Corporation..  All rights reserved.
+* Copyright (c) 2002-2017 Pentaho Corporation..  All rights reserved.
 */
 
 package org.pentaho.platform.dataaccess.datasource.wizard.service.impl;
@@ -72,7 +72,6 @@ import org.pentaho.platform.dataaccess.datasource.wizard.service.messages.Messag
 import org.pentaho.platform.dataaccess.datasource.wizard.sources.query.QueryDatasourceSummary;
 import org.pentaho.platform.engine.core.system.PentahoSessionHolder;
 import org.pentaho.platform.engine.core.system.PentahoSystem;
-import org.pentaho.platform.engine.security.SecurityHelper;
 import org.pentaho.platform.engine.services.connection.PentahoConnectionFactory;
 import org.pentaho.platform.plugin.action.mondrian.catalog.IMondrianCatalogService;
 import org.pentaho.platform.plugin.action.mondrian.catalog.MondrianCatalogServiceException;
@@ -535,7 +534,15 @@ public class DSWDatasourceServiceImpl implements IDSWDatasourceService {
   public DatasourceDTO deSerializeModelState( String dtoStr ) throws DatasourceServiceException {
     XStream xs = new XStream();
     xs.setClassLoader( DatasourceDTO.class.getClassLoader() );
-    return (DatasourceDTO) xs.fromXML( dtoStr );
+    if ( dtoStr.startsWith( "<org.pentaho.platform.dataaccess.datasource.wizard.models.DatasourceDTO>" )
+      && dtoStr.endsWith( "</org.pentaho.platform.dataaccess.datasource.wizard.models.DatasourceDTO>" ) ) {
+      return (DatasourceDTO) xs.fromXML( dtoStr );
+    } else {
+      logger.error( Messages.getErrorString(
+        "DatasourceServiceImpl.ERROR_0025_STRING_FOR_DESERIALIZATION_IS_NOT_VALID" ) ); //$NON-NLS-1$
+      throw new DatasourceServiceException( Messages.getErrorString(
+        "DatasourceServiceImpl.ERROR_0025_STRING_FOR_DESERIALIZATION_IS_NOT_VALID" ) ); //$NON-NLS-1$
+    }
   }
 
   public List<String> listDatasourceNames() throws IOException {
